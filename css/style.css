@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 110vh;
+    background: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    perspective: 100px;
+    position: relative;
+}
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    height: 100%;
+   z-index: 5;
+    background-color: rgb(63, 63, 65);
+    width: 200px;
+}
+#sidebar ul {
+    list-style: none;
+}
+#sidebar ul li {
+    padding: 20px 10px;
+}
+#sidebar ul li a{
+    font-size: 30px;
+}
+#sidebar ul li a:hover {
+    text-decoration: none;
+    color: rgba(214,46,51,0.6) ;
+}
+#sidebar i {
+    position: absolute;
+    top: 20px;
+    left: 170px;
+    color: white;
+    cursor: pointer;
+}
+.icon {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    cursor: pointer;
+}
+
+ 
+
+.layout {
+    background-color: rgba(214,46,51,0.6);
+}
+#details div{
+margin-top: -8px;
+}
+#details h3 {
+    cursor: pointer;
+    background-color: rgba(214, 46, 51 , 0.6);
+}
+#details p {
+    font-size: 13px;
+    display: none;
+}
+.count {
+    font-size: 30px;
+}
