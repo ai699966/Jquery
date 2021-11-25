@@ -1,10 +1,12 @@
 $(".icon").click(function () {
     $('#sidebar').animate({left:"0px"});
     $('.icon').animate({left:$('#sidebar').innerWidth()})
+    $('.icon').css('display', 'none')
 })
 $("#sidebar i").click(function () {
     $('#sidebar').animate({left:`-${$('#sidebar').innerWidth()}px`});
     $('.icon').animate({left:'20px'})
+    $('.icon').css('display', 'block')
 })
 $('ul a').click(function (e) {
 let sec = $(e.target).attr("href");
